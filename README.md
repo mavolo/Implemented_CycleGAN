@@ -39,7 +39,7 @@ We also provide a notebook ```Implemented_CycleGAN.ipynb``` for sample use. Plea
 # Our result
 All of our results of the project are trained and tested locally, we include the training and testing results in /Result directory and upload them to Google Drive, and please check options to customize the training and testing process in train.py and test.py
 Below shows our results:
-<div align="center">
+<div align="center" width=384>
   <img src="./asset/resultimg_2.jpg">
 </div>
 

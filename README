@@ -11,3 +11,5 @@ python test.py --dataroot horse2zebra/  --path_gA2B Result/train/horse2zebra/out
 Note: --path_gA2B and --path_gB2A should provide the exact path of the generator want to test
 
 We include the training and testing results in /Result directory, please check options to customize the training and testing process in train.py and test.py
+
+Please unzip the Result data and horse2zebra data. 

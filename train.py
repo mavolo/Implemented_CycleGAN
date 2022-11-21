@@ -206,8 +206,9 @@ for epoch in range(opt.epoch, opt.total_epochs):
 
         lossdict['loss_G_identity'], lossdict['loss_G_GAN'] = (idt_loss_A + idt_loss_B), (gan_loss_AB + gan_loss_BA)
         lossdict['loss_G_cycle'], lossdict['loss_G'] = (cycle_loss_ABA + cycle_loss_BAB), loss_G
-        lossdict['loss_D_A'], lossdict['loss_D_B'], lossdict['loss_D'] = loss_D_A, loss_D_B, (loss_D_A + loss_D_B) * 0.5
+        lossdict['loss_D_A'], lossdict['loss_D_B'], lossdict['loss_D'] = loss_D_A, loss_D_B, (loss_D_A + loss_D_B)
 
+        #Since loss_D is just for observation and does not affect the training, we mannually set loss_D=loss_D_A + loss_D_B to clearly show the curves.
         Recorder.record(recordloss=lossdict, epochs=epoch+1, iter=i)
 
         if ((epoch+1) % 5) == 0:

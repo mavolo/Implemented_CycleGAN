@@ -40,7 +40,7 @@ We also provide a notebook ```Implemented_CycleGAN.ipynb``` for sample use. Plea
 All of our results of the project are trained and tested locally, we include the training and testing results in /Result directory and upload them to Google Drive, and please check options to customize the training and testing process in train.py and test.py
 Below shows our results:
 <div align="center">
-  <img src="./asset/resultimg.jpg">
+  <img src="./asset/resultimg_2.jpg">
 </div>
 
 Please download to see our Result data (trained and tested) and horse2zebra data (for training and testing) from link below: 

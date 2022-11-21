@@ -46,7 +46,7 @@ class recorder():
             plt.xlabel("Number of epochs")
             plt.ylabel("Loss")
             plt.legend(['loss_G_identity','loss_G_GAN', 'loss_G_cycle', 'loss_G'])
-            plt.savefig('Result\\train\\saveloss\\Loss_G.png', bbox_inches='tight')
+            plt.savefig('Result/train/saveloss/Loss_G.png', bbox_inches='tight')
             plt.clf()
 
             plt.plot(range(1, len(self.loss['loss_D_A'])), self.loss['loss_D_A'][1:], 'r')
@@ -56,7 +56,7 @@ class recorder():
             plt.xlabel("Number of epochs")
             plt.ylabel("Loss")
             plt.legend(['loss_D_A','loss_D_B','loss_D'])
-            plt.savefig('Result\\train\\saveloss\\Loss_D.png', bbox_inches='tight')
+            plt.savefig('Result/train/saveloss/Loss_D.png', bbox_inches='tight')
             plt.clf()
 
             self.batch_time = time.time() - self.train_time

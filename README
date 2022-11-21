@@ -1,5 +1,5 @@
 Sample code for training:
-```bash
+```Bash
 python train.py --dataroot horse2zebra/  --saveroot horse2zebra/output/ --device cuda:0 --batch_size 8
 ```
 
@@ -9,7 +9,7 @@ Training and testing only support single GPU, a specific device name should be p
 Recommend batch size: 1 for GPU ram >= 6GB, 4 for GPU ram >= 12GB, 8 for GPU ram >= 24GB, 16 for GPU ram >= 40GB
 
 Sample code for testing:
-```bash
+```Bash
 python test.py --dataroot horse2zebra/  --path_gA2B Result/train/horse2zebra/output/G_AB.pth --path_gB2A Result/train/horse2zebra/output/G_BA.pth --saveroot horse2zebra/
 ```
 Note: --path_gA2B and --path_gB2A should provide the exact path of the generator want to test

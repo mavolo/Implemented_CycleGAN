@@ -3,7 +3,7 @@
 The structure of your dataset should be:
 ```
 ├── datasets
-   └── YOUR_DATASET_NAME
+   └── Dataset_name
        ├── trainA
            └── ...
        ├── trainB

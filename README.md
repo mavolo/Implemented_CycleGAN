@@ -1,4 +1,4 @@
-##Dataset
+#Dataset
 
 ```
 ├── dataset
@@ -14,7 +14,7 @@
 ```
 The directory for --dataroot and --saveroot should in form 'X_dir/Y_dir/' if the directory depth is 2.
 
-##Train
+#Train
 Sample code for training:
 ```Bash
 python train.py --dataroot horse2zebra/  --saveroot horse2zebra/output/ --device cuda:0 --batch_size 8
@@ -22,7 +22,7 @@ python train.py --dataroot horse2zebra/  --saveroot horse2zebra/output/ --device
 Training and testing only support single GPU, a specific device name should be provided if cannot use cuda:0.
 Recommend batch size: 1 for GPU ram >= 6GB, 4 for GPU ram >= 12GB, 8 for GPU ram >= 24GB, 16 for GPU ram >= 40GB.
 
-##Test
+#Test
 Sample code for testing:
 ```Bash
 python test.py --dataroot horse2zebra/  --path_gA2B Result/train/horse2zebra/output/G_AB.pth --path_gB2A Result/train/horse2zebra/output/G_BA.pth --saveroot horse2zebra/

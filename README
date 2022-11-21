@@ -16,4 +16,5 @@ Note: --path_gA2B and --path_gB2A should provide the exact path of the generator
 
 We include the training and testing results in /Result directory, please check options to customize the training and testing process in train.py and test.py
 
-Please download the Result data (trained and tested) and horse2zebra data (for training and testing) from: https://drive.google.com/drive/folders/1ltpOsW8cirFfeskcd3m0PJ1jg77XqtrB?usp=sharing 
+Please download the Result data (trained and tested) and horse2zebra data (for training and testing) from link below: 
+https://drive.google.com/drive/folders/1ltpOsW8cirFfeskcd3m0PJ1jg77XqtrB?usp=sharing 

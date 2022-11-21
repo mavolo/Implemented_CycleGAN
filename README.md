@@ -31,7 +31,7 @@ python test.py --dataroot datasets/horse2zebra/  --path_gA2B Result/train/horse2
 ```
 Note: --path_gA2B and --path_gB2A should provide the exact path of the generator
 
-We can select ``--mode `` for one-way translation.
+You can add ``--mode A2B`` or ``--mode B2A`` for one-way translation.
 
 We include the training and testing results in /Result directory, please check options to customize the training and testing process in train.py and test.py
 

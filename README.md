@@ -33,7 +33,10 @@ Note: --path_gA2B and --path_gB2A should provide the exact path of the generator
 
 You can add ``--mode A2B`` or ``--mode B2A`` for one-way translation.
 
-We include the training and testing results in /Result directory, please check options to customize the training and testing process in train.py and test.py
+# Sample
+We also provide a notebook ```Implemented_CycleGAN.ipynb``` for sample use. Please feel free to take a trial!
 
-Please download the Result data (trained and tested) and horse2zebra data (for training and testing) from link below: 
+
+All of our results of the project are trained and tested locally, we include the training and testing results in /Result directory and upload them to Google Drive, and please check options to customize the training and testing process in train.py and test.py
+Please download to see our Result data (trained and tested) and horse2zebra data (for training and testing) from link below: 
 https://drive.google.com/drive/folders/1ltpOsW8cirFfeskcd3m0PJ1jg77XqtrB?usp=sharing 
